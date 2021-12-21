@@ -1,0 +1,538 @@
+img.img-responsive.small-logo {
+    width: 130px;
+    height: auto;
+}
+
+p.back-to-squad {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Marcellus SC', serif;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+
+p.back-to-squad a {
+    color: #212121;
+    font-weight: 800;
+}
+
+p.i-m {
+    font-family: 'Marcellus SC', serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h1.name-of-player.first-name{
+	font-family: 'Marcellus SC', serif;
+    font-size: 60px;
+}
+
+h1.name-of-player.second-name{
+	font-family: 'Marcellus SC', serif;
+    font-size: 80px;
+}
+
+p.player-information {
+    font-family: Ubuntu,sans-serif;
+    color: #212121;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+body{
+	background: #ffffff;
+	font-family: Ubuntu,sans-serif;
+}
+
+h1.name-of-player.first-name {
+    color: #d1151a;
+}
+
+.container.center-to-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto 30px;
+}
+
+h2.info-more.title {
+    font-family: 'Marcellus SC', serif;
+    font-size: 40px;
+    color: #212121;
+        text-align: center;
+}
+
+h2.h2-heading {
+    font-family: 'Marcellus SC', serif;
+    margin: 0;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+span.slash-1 {
+    height: 100px;
+    width: 5px;
+    background: #ef2424;
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: -1;
+    margin-top: -32px;
+    margin-left: 0px;
+}
+
+span.slash {
+    height: 120px;
+    width: 5px;
+    background: #ef2424;
+    position: absolute;
+    transform: rotate(25deg);
+    z-index: -1;
+    margin-top: -32px;
+    margin-left: 10px;
+}
+
+h2.h2-heading.stats {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    color: #333333;
+}
+
+table.table.table-bordered {
+    text-align: center;
+    margin-top: 70px;
+}
+
+table.table.table-bordered thead {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+
+h3.h2-heading.stats{
+	font-family: 'Marcellus SC', serif;
+	text-align: center;
+	font-weight: 800;
+}
+
+.icons-social-icons {
+    font-size: 25px;
+    text-align: center;
+    display: table;
+    margin: 50px auto;
+}
+
+footer {
+    background: #212121;
+    padding: 50px 0;
+}
+
+h3.h3-title {
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font-family: 'Marcellus SC', serif;
+    color: #fbc343;
+}
+
+p.location {
+    margin: 0;
+    color: #ffffff;
+    font-family: Ubuntu,sans-serif;
+}
+
+p.info-more {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+img.img-responsive.plyers-images {
+    display: table;
+    margin: 0 auto;
+}
+
+
+/* Stats */
+
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+ .swiper-wrapper {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-inline-block;
+    display: -webkit-inline-block;
+    display: inline-block;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: relative;
+    margin: 20px auto;
+}
+
+ .si-data-container {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    border-bottom: 5px solid #ed600c;
+    padding: 0;
+}
+
+.si-data-container {
+    padding: 0px 0 10px;
+}
+
+.si-arrow {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    left: auto;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.si-common-class a, .si-main-wrap a {
+    text-decoration: none;
+}
+
+ .si-arrow:before {
+    content: "\e89d";
+    font-family: waf-icon-font;
+    font-size: 9px;
+    color: #ed600c;
+}
+
+.si-plyer-name {
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ed600c;
+    line-height: 1;
+    text-transform: uppercase;
+    height: 35px;
+    width: 80%;
+    margin-left: -10px;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+}
+
+.si-plyer-name em {
+    padding-left: 20px;
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    transform: skewX(30deg);
+    font-family: Ubuntu,sans-serif;
+}
+
+.si-main-wrap em {
+    font-style: normal;
+}
+
+.si-team-wrap {
+    padding: 15px 0;
+}
+
+.si-team {
+    position: relative;
+    padding-left: 25px;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.si-team.si-active:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #ed600c;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.si-flag {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.si-name {
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00233d;
+    padding-left: 15px;
+}
+
+.si-vs-wrap {
+    padding: 5px 0;
+    justify-content: flex-end;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.si-vs {
+    position: relative;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9c9b9b;
+    width: 55%;
+}
+
+.si-vs:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: -moz-linear-gradient(left,rgba(204,204,204,0) 0,#ccc 50%,rgba(204,204,204,0) 100%);
+    background: -webkit-linear-gradient(left,rgba(204,204,204,0) 0,#ccc 50%,rgba(204,204,204,0) 100%);
+    background: linear-gradient(to right,rgba(204,204,204,0) 0,#ccc 50%,rgba(204,204,204,0) 100%);
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.si-vs .si-txt {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: #fff;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.si-date {
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+    background-color: #000;
+    width: 45%;
+    height: 20px;
+    padding: 0 15px;
+    margin-right: -6px;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: skewX(-30deg);
+    -moz-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+}
+
+.si-date em {
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    transform: skewX(30deg);
+        font-style: normal;
+}
+
+.si-team {
+    position: relative;
+    padding-left: 25px;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.si-flag {
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.si-name {
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #00233d;
+    padding-left: 15px;
+}
+
+.si-total {
+    font-family: 'Marcellus SC', serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #d11619;
+    padding: 5px 0;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.si-total em {
+    font-size: 25px;
+    padding-left: 10px;
+    font-style: normal;
+}
+
+.si-points-wrap {
+    padding: 15px;
+}
+
+.si-txt-wrap {
+    font-family: Ubuntu,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #b3b2b2;
+    text-transform: initial;
+    align-items: center;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.si-top-performance .si-divider:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: -moz-linear-gradient(left,rgba(204,204,204,0) 0,#ccc 50%,rgba(204,204,204,0) 100%);
+    background: -webkit-linear-gradient(left,rgba(204,204,204,0) 0,#ccc 50%,rgba(204,204,204,0) 100%);
+    background: linear-gradient(to right,rgba(204,204,204,0) 0,#ccc 50%,rgba(204,204,204,0) 100%);
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+span.si-point {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+
+/* Stats */
